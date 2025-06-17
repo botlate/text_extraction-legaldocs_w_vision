@@ -49,7 +49,7 @@ These categories can easily be modified or expanded by changing the classificati
 
 ## Samples
 
-Sample images and their extracted outputs are provided in the `samples/` folder:
+Sample images and their extracted outputs are provided:
 
 - **pleading_cover.jpg**  
 - **pleading_cover.txt**
