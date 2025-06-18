@@ -1,4 +1,4 @@
-# Vision-Assisted Text Extraction for Pre-chunking - Categories of Pages of Legal Documents with Poor OCR Due to Layout
+# Vision-Assisted Text Extraction for Pre-chunking - Legal Documents with Poor OCR Due to Layout
 
 ## Purpose
 
