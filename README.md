@@ -1,6 +1,6 @@
 # Vision-Assisted Text Extraction for Pre-chunking - Limited Pages of Legal Documents with Poor OCR Due to Layout
 
-#  # Purpose
+## Purpose
 
 This simple project uses a local vision-capable large language model (LLM) for classifying and extracting metadata from individual images taken from PDFs of legal pleadings. It targets especially challenging pages like caption pages and tables of contents that OCR often muddles. This process is run concurrently with OCR, and the results are joined with OCR text when chunking and embedding. 
  
