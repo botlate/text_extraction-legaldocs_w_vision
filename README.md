@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This simple project uses a local vision-capable large language model (LLM) for classifying and extracting metadata from individual images taken from PDFs of legal pleadings. It targets especially challenging pages like caption pages and tables of contents that OCR often muddles. This process is intended to run *before* OCR, and added to the OCR result when an embedding is being made. 
+This simple project uses a local vision-capable large language model (LLM) for classifying and extracting metadata from individual images taken from PDFs of legal pleadings. It targets especially challenging pages like caption pages and tables of contents that OCR often muddles. This process is run concurrently with OCR, and the results are joined with OCR text when chunking and embedding. 
  
 The goal is to improve downstream chunking and embedding by using machine vision as a lightweight substitute for complex layout models (like LayoutLM or Donut) that typically require expensive fine-tuning for legal document structure. Standard OCR often gets confused by legal layouts, mixing up party names, document titles, or headings, especially on cover pages, critical information where errors are time consuming to correct. Here, a general-purpose, pre-trained LLM (such as Gemma-3-27B Q8 via LM Studio) is used without fine-tuning to produce structured metadata and clean document boundaries for later embedding and search.  
 
