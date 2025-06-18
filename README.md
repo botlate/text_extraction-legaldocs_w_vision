@@ -49,21 +49,22 @@ These categories can easily be modified or expanded by changing the classificati
 
 ## Samples
 
-Sample images and their extracted outputs are provided:
+Sample images and outputs:
 
 - **pleading_cover.jpg**  
 - **pleading_cover.txt**
 - **Table_of_Authorities.jpg**
 - **Table_of_Authorities.txt**
 - **pleading_content.jpg**
-- **form.jpg** — an official court or agency form
-- **classification error** - exhibit mistaken for a pleading cover
+- **form.jpg** 
+- **classification error** 
 
 
 ## Quick Start
 
 1. Place page images in `C:/vision_prechunking/images/`
-2. Run the script (`python vision_prechunking.py`)
+2. Modify the the script for directory, API, and vision model.
 3. Extracted metadata and TOC outputs will appear in `captions/` and `toc/` subfolders.
+4. Improve process and share!
 
 
