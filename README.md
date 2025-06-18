@@ -1,4 +1,4 @@
-# Vision-Assisted Prechunking for Legal Documents
+# Vision-Assisted Text Extraction for Pre-chunking - Pages of Legal Documents with Difficult Layouts
 
 ## Purpose
 
